@@ -4,6 +4,9 @@ int main()
 	unsigned int n,m;
 	unsigned long int t;
 	char s,ans;
+	scanf("%d %d %d",&n,&m,&t);
+	fflush(stdin);
+	scanf("%c",&s);
 	if(s='L')
 	{
 		while(1)
@@ -22,7 +25,7 @@ int main()
 			}
 		}
 	}
-	if(s='R')
+	else if(s='R')
 	{
 		while(1)
 		{
